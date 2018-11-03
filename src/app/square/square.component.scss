@@ -1,0 +1,20 @@
+button {
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    &:focus {
+        outline: 0;
+    }
+    cursor: pointer;
+}
+.active {
+    button {
+        background: red !important;
+    }
+}
+.selected {
+    button {
+        background: blue;
+    }
+}

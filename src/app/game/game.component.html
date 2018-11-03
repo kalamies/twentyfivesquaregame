@@ -1,0 +1,3 @@
+<div class="another" *ngFor="let rowIndex of indexArray()">
+  <square *ngFor="let columnIndex of indexArray()" [x]="columnIndex" [y]="rowIndex" [active]="gameService.isActive(columnIndex, rowIndex)" [selected]="gameService.isSelected(columnIndex, rowIndex)"></square>
+</div>
